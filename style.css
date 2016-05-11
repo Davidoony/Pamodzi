@@ -6,8 +6,10 @@ a {
     color:#4A9E4B;
 }
 nav {
-    height: 100px;
+    height: 70px;
     font-size: 24px;
+    margin-top: 12px;
+    padding-top: 17px;
 }
 .navbar-fixed-top {
     margin-top: 21px;
@@ -18,7 +20,7 @@ span {
     font-weight: lighter;
 }
 .jumbotron {
-    margin-top: 100px;
+    margin-top: 20px;
     padding-bottom: 30px;
     margin-bottom: 30px;
     color: inherit;
@@ -28,12 +30,18 @@ span {
     border-bottom: .05rem solid #e5e5e5;
     
 }
-img {
-    width: 720px;
-    height: 240px;
+#pinfo {
+    font-family: ubuntu;
+    font-size: 20px;
+    font-variant: inherit;
+}
+li {
+    text-decoration: none;
+    text-decoration-line: none
 }
 .footer {
   padding-top: 1.5rem;
   color: #777;
   border-top: .05rem solid #e5e5e5;
+    text-align: center;
 }
